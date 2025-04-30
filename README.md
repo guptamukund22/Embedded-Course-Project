@@ -29,10 +29,6 @@ This project investigates the application of blockchain consensus algorithms on 
 - **Fault Tolerance**: Demonstrates tolerance of one Byzantine node in a four-node network, validating the theoretical n ≥ 3f + 1 requirement
 - **Well-Documented Architecture**: Comprehensive documentation of the design choices, challenges, and solutions
 
-## 🎬 Demo
-
-Watch the demonstration video: [BFT on STM32 Demo](https://youtu.be/TRHFr6iX2Tk?feature=shared)
-
 ## 🛠 Requirements
 
 ### Hardware
@@ -67,26 +63,6 @@ Watch the demonstration video: [BFT on STM32 Demo](https://youtu.be/TRHFr6iX2Tk?
    - Stop bits: 1
    - Parity: None
    - Flow control: None
-
-### Project Structure
-```
-bft-stm32/
-├── Inc/
-│   ├── main.h
-│   ├── node.h
-│   ├── message_buffer.h
-│   ├── bft_protocol.h
-│   └── stm32f4xx_hal_conf.h
-├── Src/
-│   ├── main.c
-│   ├── node.c
-│   ├── message_buffer.c
-│   ├── bft_protocol.c
-│   └── system_stm32f4xx.c
-├── MDK-ARM/
-│   └── bft_consensus.uvprojx
-└── README.md
-```
 
 ## 📝 Implementation Details
 
